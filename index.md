@@ -25,7 +25,7 @@ DPCCN:
 <audio id="audio" controls="" preload="none">
 <source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample1-dpccn.wav?raw=true"></audio>
 
-Our discrete extraction:
+Our discrete extraction (Parentheses indicate different vocoder settings):
 
 (UniCATs-HuBERT-512)
 <audio id="audio" controls="" preload="none">
@@ -54,7 +54,7 @@ DPCCN:
 <audio id="audio" controls="" preload="none">
 <source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample3-dpccn.wav?raw=true"></audio>
 
-Our discrete extraction:
+Our discrete extraction (Parentheses indicate different vocoder settings):
 
 (UniCATs-HuBERT-512)
 <audio id="audio" controls="" preload="none">
@@ -83,7 +83,7 @@ DPCCN:
 <audio id="audio" controls="" preload="none">
 <source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample4-dpccn.wav?raw=true"></audio>
 
-Our discrete extraction:
+Our discrete extraction (Parentheses indicate different vocoder settings):
 
 (UniCATs-HuBERT-512)
 <audio id="audio" controls="" preload="none">
@@ -112,7 +112,7 @@ DPCCN:
 <audio id="audio" controls="" preload="none">
 <source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample5-dpccn.wav?raw=true"></audio>
 
-Our discrete extraction:
+Our discrete extraction (Parentheses indicate different vocoder settings):
 
 (UniCATs-HuBERT-512)
 <audio id="audio" controls="" preload="none">
