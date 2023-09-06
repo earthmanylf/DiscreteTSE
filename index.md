@@ -39,7 +39,6 @@ Our discrete extraction:
 (encodec)
 <audio id="audio" controls="" preload="none">
 <source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample1-enc.wav?raw=true"></audio>
-\\
 
 **(2) Sample2:**
 
@@ -69,7 +68,6 @@ Our discrete extraction:
 (encodec)
 <audio id="audio" controls="" preload="none">
 <source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample3-enc.wav?raw=true"></audio>
-\\
 
 **(3) Sample3:**
 
@@ -99,7 +97,6 @@ Our discrete extraction:
 (encodec)
 <audio id="audio" controls="" preload="none">
 <source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample4-enc.wav?raw=true"></audio>
-\\
 
 **(4) Sample4:**
 
