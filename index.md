@@ -10,6 +10,7 @@ Our experiments conducted on the WSJ0-2mix and Libri2mix datasets demonstrate th
 ## Test samples of Target Speech Extraction 
 The sound files blow are some raw noisy wavs and the extracted speech from different methods.
 All the samples are driven from the test set of Libri2Mix (16k min).
+We use UniCATs-HuBERT-4096 as the discrete vocoder.
 
 **(1) Sample1:**
 
@@ -25,20 +26,12 @@ DPCCN:
 <audio id="audio" controls="" preload="none">
 <source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample1-dpccn.wav?raw=true"></audio>
 
-Our discrete extraction (Parentheses indicate different vocoder settings):
+Our discrete extraction:
 
-(UniCATs-HuBERT-512)
-<audio id="audio" controls="" preload="none">
-<source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample1-hubert512.wav?raw=true"></audio>
 (UniCATs-HuBERT-4096)
 <audio id="audio" controls="" preload="none">
 <source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample1-hubert4096.wav?raw=true"></audio>
-(UniCATs-vq-wav2vec)
-<audio id="audio" controls="" preload="none">
-<source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample1-vq.wav?raw=true"></audio>
-(encodec)
-<audio id="audio" controls="" preload="none">
-<source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample1-enc.wav?raw=true"></audio>
+
 
 **(2) Sample2:**
 
@@ -54,20 +47,11 @@ DPCCN:
 <audio id="audio" controls="" preload="none">
 <source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample3-dpccn.wav?raw=true"></audio>
 
-Our discrete extraction (Parentheses indicate different vocoder settings):
+Our discrete extraction:
 
-(UniCATs-HuBERT-512)
-<audio id="audio" controls="" preload="none">
-<source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample3-hubert512.wav?raw=true"></audio>
 (UniCATs-HuBERT-4096)
 <audio id="audio" controls="" preload="none">
 <source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample3-hubert4096.wav?raw=true"></audio>
-(UniCATs-vq-wav2vec)
-<audio id="audio" controls="" preload="none">
-<source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample3-vq.wav?raw=true"></audio>
-(encodec)
-<audio id="audio" controls="" preload="none">
-<source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample3-enc.wav?raw=true"></audio>
 
 **(3) Sample3:**
 
@@ -83,20 +67,12 @@ DPCCN:
 <audio id="audio" controls="" preload="none">
 <source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample4-dpccn.wav?raw=true"></audio>
 
-Our discrete extraction (Parentheses indicate different vocoder settings):
+Our discrete extraction:
 
-(UniCATs-HuBERT-512)
-<audio id="audio" controls="" preload="none">
-<source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample4-hubert512.wav?raw=true"></audio>
 (UniCATs-HuBERT-4096)
 <audio id="audio" controls="" preload="none">
 <source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample4-hubert4096.wav?raw=true"></audio>
-(UniCATs-vq-wav2vec)
-<audio id="audio" controls="" preload="none">
-<source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample4-vq.wav?raw=true"></audio>
-(encodec)
-<audio id="audio" controls="" preload="none">
-<source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample4-enc.wav?raw=true"></audio>
+
 
 **(4) Sample4:**
 
@@ -112,17 +88,8 @@ DPCCN:
 <audio id="audio" controls="" preload="none">
 <source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample5-dpccn.wav?raw=true"></audio>
 
-Our discrete extraction (Parentheses indicate different vocoder settings):
+Our discrete extraction:
 
-(UniCATs-HuBERT-512)
-<audio id="audio" controls="" preload="none">
-<source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample5-hubert512.wav?raw=true"></audio>
 (UniCATs-HuBERT-4096)
 <audio id="audio" controls="" preload="none">
 <source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample5-hubert4096.wav?raw=true"></audio>
-(UniCATs-vq-wav2vec)
-<audio id="audio" controls="" preload="none">
-<source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample5-vq.wav?raw=true"></audio>
-(encodec)
-<audio id="audio" controls="" preload="none">
-<source id="wav" src="https://github.com/earthmanylf/DiscreteTSE/blob/main/wavs/sample5-enc.wav?raw=true"></audio>
